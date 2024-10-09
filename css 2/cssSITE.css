@@ -1,0 +1,75 @@
+body{
+    font-family: tahoma;
+    text-align: center;
+}
+main {
+   background-color: maroon;
+   width: 70%;
+   position: absolute;
+   top: 0%;
+   bottom: 0%;
+   right: 0%;
+   
+}
+
+aside {
+    background-image: url("Capas/vinho.jpg");
+    background-size: cover;
+    width: 30%;
+    position: fixed;
+    top: 0%;
+    bottom: 0;
+    left: 0%;
+
+}
+h1{
+    color: whitesmoke;
+    font-style: italic;
+    text-transform: uppercase;
+    border: 2px dotted mistyrose;
+    text-align: center;
+   
+ 
+}
+.texto:hover{
+    background-color: crimson;
+    color: lightpink;
+    border: lightpink;
+}
+h3{
+    color: whitesmoke;
+}
+h3.blocoa{
+    background-image: url("Capas/vinho.jpg");
+}
+h3.blocob{
+    color: maroon;
+    background-image: url("Capas/fundo.jpg");
+}
+h3:hover{
+    color:indianred
+}
+ol{
+    color: lightgray;
+    font-size: 10pt;
+    line-height: 35px;
+    text-align: left;
+    margin: 10px 0;
+    padding-left: 25px; 
+    position: relative; 
+    list-style-image: url(Capas/check.png);
+}
+ 
+table {
+    margin:20px auto;
+    border: 3px dashed indianred;
+}
+td :hover {
+   transform: rotate(-5deg);
+   border: 5px double gold;
+   
+}
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
